@@ -1,10 +1,9 @@
-//! WHY DO WE PU THIS IN $FUNCTION?
+
 $(function () {
 
   $(".change-devoured").on("click", function(event) {
     var id = $(this).data("id");
-    //!gets this information from handlebars
-    var newDevoured = $(this).data("newdevoured");
+    var newDevoured = !($(this).data("newdevoured"));
     console.log(newDevoured);
 
     var newDevouredState = {devoured: newDevoured};
