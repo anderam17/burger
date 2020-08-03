@@ -1,16 +1,17 @@
-<h1>Burgerss!</h1>
+<h1>Burgers!</h1>
 
-<h2>Burgers that are not devoured!</h2>
+<h2>Burgers you can eat!</h2>
 
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
+    {{!--!WHAT is this thing --}}
       {{> burgers/burger-block devoured=false}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Burgers that are devoured!</h2>
+<h2>Burgers that are already devoured!</h2>
 
 <ul>
   {{#each burgers}}
@@ -24,15 +25,10 @@
 <form class="create-form">
 
   <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+    <label for="bu">Burger Name:</label>
+    <input type="text" id="bu" name="name">
   </div>
 
-  <div class="form-group">
-    <label for="slee">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1"> Devoured!<br>
-    <input type="radio" name="devoured" value="0"> Not Devoured!
-  </div>
 
   <button type="submit">Add burger</button>
 </form>
