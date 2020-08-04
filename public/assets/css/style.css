@@ -1,3 +1,6 @@
+body {
+  background: rgb(240, 216, 171);
+}
 li {
   padding: 5px;
   margin: 5px;
@@ -17,44 +20,50 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
-h1{
-  text-align: center;
-  background: green;
-}
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: column;
-  background: blue;
+  font-family: "Inconsolata", monospace;
+}
+h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  background: rgb(252, 252, 160);
+  width: 60%;
+  margin: 20px auto;
+  font-size: 50px;
 }
 .row {
   margin: 20px;
-  background: purple;
   display: flex;
   justify-content: space-around;
 }
-h2{
+h2 {
   margin-right: 10px;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
 }
 
-.form-group{
+.form-group {
   margin-top: 10px;
 }
-#add-burger{
+#add-burger {
   display: flex;
   justify-content: center;
   flex-direction: row;
   padding: 20px;
+  background: rgb(252, 252, 160);
 }
-#left-col{
+#left-col {
   float: left;
-  background: pink;
+  background: rgb(250, 197, 196);
   text-align: center;
 }
 
-#right-col{
+#right-col {
   float: right;
-  background: gold;
+  background: rgb(250, 197, 196);
   text-align: center;
 }
