@@ -17,3 +17,44 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+h1{
+  text-align: center;
+  background: green;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: blue;
+}
+.row {
+  margin: 20px;
+  background: purple;
+  display: flex;
+  justify-content: space-around;
+}
+h2{
+  margin-right: 10px;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+#add-burger{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px;
+}
+#left-col{
+  float: left;
+  background: pink;
+  text-align: center;
+}
+
+#right-col{
+  float: right;
+  background: gold;
+  text-align: center;
+}
