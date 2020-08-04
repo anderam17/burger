@@ -20,15 +20,23 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
-.container {
+
+.container, .row, #add-burger {
   display: flex;
+}
+
+.container {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: column;
   font-family: "Inconsolata", monospace;
 }
-h1 {
+
+h1, #left-col, #right-col {
   text-align: center;
+}
+
+h1 {
   font-family: 'Lobster', cursive;
   background: rgb(252, 252, 160);
   width: 60%;
@@ -37,7 +45,6 @@ h1 {
 }
 .row {
   margin: 20px;
-  display: flex;
   justify-content: space-around;
 }
 h2 {
@@ -50,20 +57,22 @@ h2 {
   margin-top: 10px;
 }
 #add-burger {
-  display: flex;
   justify-content: center;
   flex-direction: row;
   padding: 20px;
   background: rgb(252, 252, 160);
 }
+
+#left-col, #right-col{
+  background: rgb(250, 197, 196);
+  padding: 10px;
+
+}
+
 #left-col {
   float: left;
-  background: rgb(250, 197, 196);
-  text-align: center;
 }
 
 #right-col {
   float: right;
-  background: rgb(250, 197, 196);
-  text-align: center;
 }
