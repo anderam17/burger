@@ -3,6 +3,7 @@
 ## Table of Contents 
 * [Deployed Site](#deployed-site)
 * [Description](#description)
+* [Usage Instructions](#usage-instructions)
 * [Technologies Used](#technologies-used)
 *  [Installation Instructions](#installation-instructions)
 *  [Have Questions?](#have-questions)
